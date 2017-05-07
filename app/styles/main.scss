@@ -9,7 +9,8 @@
 }
 
 html {
-  background: #c93375;
+  background: #d02e72;
+  // background: #b71c6f;
 }
 
 body {
@@ -86,6 +87,10 @@ body {
   input.email:-ms-input-placeholder {
     color: black;
   }
+
+  // input[type=submit] {
+  //   background: url(..images/icon-subscribe.png)
+  // }
 
 }
 
