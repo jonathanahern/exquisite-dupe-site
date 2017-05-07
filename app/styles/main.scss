@@ -53,10 +53,39 @@ body {
 
 
 .contact {
-  color: white;
+  color: #faf7e2;
   margin-top: 12px;
   p {
     margin: 2px auto;
     line-height: 1.2;
   }
 }
+
+#mc_embed_signup {
+  clear:left;
+  font-size :14px;
+  width:100%;
+  label {
+    color: #faf7e2 !important;
+    letter-spacing: 1px;
+  }
+
+  input.email {
+    background-color: #faf7e2 !important;
+    border-color: #faf7e2 !important;
+  }
+
+  input.email::-webkit-input-placeholder {
+    color: black;
+  }
+
+  input.email::-moz-placeholder {
+    color: black;
+  }
+
+  input.email:-ms-input-placeholder {
+    color: black;
+  }
+
+}
+
